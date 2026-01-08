@@ -1,0 +1,145 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.between-all{
+    width: 71%; 
+    max-width: 1140px; 
+    margin: 0 auto;
+}
+
+body{
+    background-color: #ffffff;
+}
+/* navber design.... */
+.navber{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 16px 120px;
+    height: 92px;
+    background-color: aquamarine;
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+    width: 365px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    /* gap:32px; */
+}
+nav ul a{
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 152%;
+}
+
+nav button , .hero-button button{
+    padding: 12.5px 16px;
+    background-color: #469165;
+    border-radius: 4px;
+    color:#ffffff;
+    font-weight: 600px;
+    font-size: 16px;
+    line-height: 100%;
+    gap:10px;
+}
+/* ...................... */
+.banner{
+    height: 674px;
+    width: 100%;
+    background-image:url(assets/hero-bg.png);background-size:cover;background-repeat: no-repeat;background-position: center;
+    color: #ffffff;
+
+}
+#hero-section .banner,.mid-point{
+    text-align: center;
+    /* margin:115.5px 120px  179.5px 120px  ; */
+}
+
+
+.banner h1{
+    font-size: 72px;
+    font-weight: 700px;
+    line-height: 84px;
+    padding-top: 166px;
+
+}
+.banner h1 .extra-color{
+    color:#30b868;
+
+}
+.banner p{
+    margin-top: 16px;
+    font-family: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+}
+.containt .hero-button{
+    margin-top: 32px;
+}
+/* .hero-button button .no-color{ */
+    
+.mid-point h2{
+    padding-top:50px ;
+    font-size: 48px;
+    font-weight: 700px;
+    line-height: 100%;
+}
+.mid-point p{
+    color:#627382;
+    margin-top: 16px;
+    
+}
+
+.nots{
+    
+    height: 300px;
+    margin: 10px;
+    /* background-color: #627382; */
+    
+    display: flex;
+    justify-content: center;
+    
+}
+.sub-nots{
+    width: 322px;
+    background-color: #ffffff;
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+    /* margin-right: 10px; */
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
+    
+}
+.sub-nots img{
+    width: 60px;
+    height: 60px;
+    margin-top: 69.5px;
+    border: 1px solid #f95555;
+    /* background-size: 60px; */
+    background-color: #f95555;
+    /* back-radius: 50%; */
+}
+.sub-nots h3{
+    font-size:24px ;
+    font-weight: 600px;
+    line-height:100% ;
+    color:#001931;
+    margin: 16px 0px;
+}
+.sub-nots p{
+    font-size:16px ;
+    font-weight: 400px;
+    
+    color:#627382;
+    
+}
+
+
+
